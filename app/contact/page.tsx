@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/MainNavbar";
 import Image from "next/image";
 import { useState } from "react";
@@ -179,11 +180,7 @@ export default function ContactPage() {
             </section>
 
             {/* Footer */}
-            <footer className="py-8 text-center bg-white border-t border-gray-100">
-                <p className="text-gray-400 text-xs tracking-widest uppercase">
-                    © {new Date().getFullYear()} Amore Events | New Delhi, 110091
-                </p>
-            </footer>
+            <Footer />
 
         </main>
     );

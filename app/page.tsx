@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/MainNavbar";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -261,21 +262,7 @@ export default function page() {
         </div>
       </section>
 
-      <footer className="py-16 bg-black text-center text-gray-500">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-col items-center mb-10">
-            <div className="text-4xl font-serif font-bold text-white mb-2">AMORE <span className="text-rose-600">EVENTS</span></div>
-            <p className="text-xs tracking-[0.3em] uppercase opacity-50">Crafting Indian Weddings Globally</p>
-          </div>
-          <div className="flex gap-8 justify-center mb-10">
-            {['Facebook', 'Instagram', 'Pinterest', 'YouTube'].map(social => (
-              <a key={social} href="#" className="hover:text-rose-500 transition-colors text-sm uppercase tracking-widest font-semibold">{social}</a>
-            ))}
-          </div>
-          <div className="w-full h-px bg-gray-900 mb-10" />
-          <p className="text-xs">© 2026 Amore Events. All rights reserved. Designed for Royal Indian Unions.</p>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

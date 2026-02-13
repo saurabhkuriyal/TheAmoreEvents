@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/MainNavbar";
 
 export default function AboutPage() {
@@ -70,9 +71,8 @@ export default function AboutPage() {
             </section>
 
             {/* Simple Footer for context */}
-            <footer className="py-8 text-center text-gray-400 text-xs tracking-widest uppercase">
-                © {new Date().getFullYear()} Amore Events
-            </footer>
+            <Footer />
+
         </main>
     );
 }
