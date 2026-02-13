@@ -110,17 +110,34 @@ export default function page() {
         </div>
 
         <div className="max-w-6xl mx-auto text-center relative z-10">
-          <span className="text-rose-700 font-serif italic text-xl mb-4 block">Where Love Meets Perfection</span>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-8">
-            Exquisite Indian Weddings <br /> <span className="text-rose-800">Designed with Passion</span>
+          <div className="inline-block animate-pulse mb-6">
+            <span className="px-4 py-1.5 rounded-full border border-rose-200 bg-rose-50/50 text-rose-600 text-xs font-bold uppercase tracking-[0.2em] backdrop-blur-sm">
+              About Us
+            </span>
+          </div>
+
+          <h2 className="text-4xl md:text-6xl font-serif font-bold text-gray-900 mb-6 leading-tight">
+            Not just décor, <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-amber-500 italic px-2">
+              we design events
+            </span>
+            <span className="text-rose-500 inline-block hover:animate-ping">♥️</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mb-10" />
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-            At Amore Events, we understand that an Indian wedding is more than just a ceremony;
-            it's a soulful union of two families, bound by traditions and celebrated with grandeur.
-            From the fragrance of the marigolds to the rhythm of the dhol, we meticulously craft
-            every detail to reflect your unique love story and heritage.
+
+          <p className="text-xl md:text-3xl font-serif text-gray-600 italic font-light mb-8">
+            :) Haldi to Happily Ever After <span className="not-italic ml-2">🧿</span>
           </p>
+
+          <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mb-10" />
+
+          <div className="bg-white/60 backdrop-blur-xl border border-rose-100 p-6 rounded-2xl shadow-lg max-w-2xl mx-auto mb-12">
+            <div className="text-lg md:text-xl font-medium text-gray-800 flex flex-col items-center gap-2">
+              <span className="flex items-center gap-2">
+                Delhi <span className="text-rose-500">📍</span> | Celebrations crafted with soul & style 🦋
+              </span>
+
+            </div>
+          </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[

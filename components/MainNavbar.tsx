@@ -63,7 +63,7 @@ export default function Navbar() {
                     <Link href="/" className="group flex items-center space-x-3">
                         <div className="relative w-12 h-12 flex items-center justify-center bg-gradient-to-br from-rose-400 to-amber-200 rounded-2xl shadow-inner overflow-hidden transform group-hover:rotate-6 transition-transform duration-500">
                             <Image
-                                src="/logo.png"
+                                src="/logo.jpg"
                                 alt="Amore Events Logo"
                                 fill
                                 className="object-contain p-1"
