@@ -15,7 +15,7 @@ const galleryImages = [
     { src: "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=2070&auto=format&fit=crop", title: "Mehendi Art", desc: "Intricate designs" },
     { src: "https://images.unsplash.com/photo-1595914618776-804369b0fa6e?q=80&w=2070&auto=format&fit=crop", title: "Wedding Vows", desc: "A lifetime promise" },
     { src: "https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=2072&auto=format&fit=crop", title: "Guest Welcome", desc: "Warm hospitality" },
-    { src: "https://images.unsplash.com/photo-1621621667797-e06afc21085c?q=80&w=1974&auto=format&fit=crop", title: "Couple Goals", desc: "Candid moments" },
+    { src: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", title: "Couple Goals", desc: "Candid moments" },
     { src: "https://images.unsplash.com/photo-1522673607200-1645062cd95c?q=80&w=2070&auto=format&fit=crop", title: "Luxury Decor", desc: "Ambience creation" },
     { src: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?q=80&w=1974&auto=format&fit=crop", title: "Haldi Fun", desc: "Yellow hues" },
     { src: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2070&auto=format&fit=crop", title: "Traditional Attire", desc: "Cultural richness" },

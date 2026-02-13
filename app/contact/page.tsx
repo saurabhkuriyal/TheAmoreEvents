@@ -59,7 +59,7 @@ export default function ContactPage() {
                         {/* Image Card */}
                         <div className="relative h-[400px] w-full rounded-3xl overflow-hidden shadow-2xl group">
                             <Image
-                                src="https://images.unsplash.com/photo-1522673607200-1645062cd95c?q=80&w=2070&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1654156577076-e0350ba86cc1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Luxury Wedding Setup"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"

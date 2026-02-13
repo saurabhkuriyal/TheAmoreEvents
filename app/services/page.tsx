@@ -14,7 +14,7 @@ const services = [
     {
         title: "Décor & Design",
         description: "Transforming venues into dreamscapes with bespoke floral arrangements, lighting, and thematic mastery that reflects your unique style.",
-        image: "https://images.unsplash.com/photo-1519225421980-6e9ad150b4ee?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1727430256509-0f897d6f4765?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         icon: "🌸"
     },
     {

@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 const carouselItems = [
   {
-    image: "https://images.unsplash.com/photo-1519225421980-6e9ad150b4ee?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1597157639073-69284dc0fdaf?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Royal Indian Weddings",
     subtitle: "Creating timeless memories in palace-themed settings",
   },
@@ -172,7 +172,7 @@ export default function page() {
               {
                 title: "Bespoke Decor",
                 desc: "Grand mandaps and floral art that leaves your guests in awe.",
-                img: "https://images.unsplash.com/photo-1595914618776-804369b0fa6e?q=80&w=2070&auto=format&fit=crop",
+                img: "https://images.unsplash.com/photo-1633104502699-b2ecf0fee294?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               {
                 title: "Entertainment",
